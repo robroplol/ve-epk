@@ -814,10 +814,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:p-24{
     padding: 6rem;
   }
+
+  .lg\:px-24{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .lg\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
 
 @media (min-width: 1280px){
   .xl\:p-48{
     padding: 12rem;
+  }
+
+  .xl\:px-48{
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 }
