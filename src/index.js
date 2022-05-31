@@ -8,5 +8,13 @@ $(document).ready(function () {
     slidesToScroll: 1,
     dots: true,
     arrows: true,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 });
