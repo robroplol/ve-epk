@@ -3,8 +3,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "nunito": ["Nunito", "sans-serif"],
-        "permanentmarker": ["'Permanent Marker'"]
+        nunito: ["Nunito", "sans-serif"],
+        permanentmarker: ["'Permanent Marker'"],
+      },
+      colors: {
+        "light-blue": "#77c3b6",
+        "pale-blue": "#99c5b2",
       },
     },
   },
